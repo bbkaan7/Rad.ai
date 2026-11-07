@@ -1,0 +1,47 @@
+{
+  "anonchat": {
+    "process_name": "HD-Player.exe",
+    "templates": {
+      "chat_anchor": "templates/anonchat/chat_anchor.png",
+      "next": "templates/anonchat/next.png",
+      "empty_textbox": "templates/anonchat/empty_textbox.png",
+      "search": "templates/anonchat/search.png",
+      "send": "templates/anonchat/send.png"
+    },
+    "template_dpi": {
+      "chat_anchor": 120,
+      "next": 120,
+      "empty_textbox": 120,
+      "search": 120,
+      "send": 96
+    },
+    "window_title": "",
+    "size": null,
+    "regions": {},
+    "auto_calibration": true,
+    "read_mode": "bubbles",
+    "send_method": "button"
+  },
+  "telegram": {
+    "process_name": "Telegram.exe",
+    "templates": {
+      "empty_textbox": "templates/telegram/empty_textbox.png",
+      "chat_anchor": "templates/telegram/chat_anchor.png",
+      "send": "templates/telegram/send.png",
+      "copy_text": "templates/telegram/copy_text.png"
+    },
+    "template_dpi": {
+      "chat_anchor": 120,
+      "empty_textbox": 120,
+      "copy_text": 120
+    },
+    "window_title": "",
+    "size": null,
+    "regions": {},
+    "auto_calibration": true,
+    "read_mode": "bubbles",
+    "send_method": "button",
+    "text_source": "clipboard",
+    "timestamp_inside": true
+  }
+}

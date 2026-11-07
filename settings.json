@@ -1,0 +1,115 @@
+{
+  "ollama_url": "http://localhost:11434/api/generate",
+  "model": "flirtbot",
+  "context_messages": 5,
+  "adb_host": "127.0.0.1",
+  "adb_port": 5037,
+  "adb_serial": "127.0.0.1:5585",
+  "adb_device_host": "127.0.0.1",
+  "adb_device_port": 5585,
+  "adb_poll_seconds": 1.0,
+  "anon_greeting": true,
+  "selectors": {
+    "package": "io.anonchat",
+    "identity": {
+      "rad-role": "identity"
+    },
+    "incoming": {
+      "rad-role": "incoming"
+    },
+    "outgoing": {
+      "rad-role": "outgoing"
+    },
+    "input": {
+      "rad-role": "input"
+    },
+    "send": {
+      "rad-role": "send"
+    },
+    "next": {
+      "rad-role": "next"
+    },
+    "bio": {
+      "rad-role": "bio"
+    },
+    "search": {
+      "content-desc": "START SEARCHING"
+    },
+    "input_placeholder": "Write a message...",
+    "friend_requests": {
+      "explicit_accept_labels": [
+        "Accept friend request",
+        "Accept friendship request"
+      ],
+      "accept_labels": [
+        "Accept",
+        "Confirm"
+      ]
+    }
+  },
+  "adb_switch_seconds": 0.35,
+  "telegram_selectors": {
+    "package": "org.vidogram.messenger",
+    "chat_list": {
+      "tg-role": "chat_list",
+      "package": "org.vidogram.messenger"
+    },
+    "chat_rows": {
+      "tg-role": "chat_rows",
+      "package": "org.vidogram.messenger"
+    },
+    "identity": {
+      "tg-role": "identity",
+      "package": "org.vidogram.messenger"
+    },
+    "input": {
+      "tg-role": "input",
+      "package": "org.vidogram.messenger"
+    },
+    "send": {
+      "tg-role": "send",
+      "package": "org.vidogram.messenger"
+    },
+    "incoming": {
+      "tg-role": "incoming",
+      "package": "org.vidogram.messenger"
+    },
+    "outgoing": {
+      "tg-role": "outgoing",
+      "package": "org.vidogram.messenger"
+    },
+    "back": {
+      "tg-role": "back",
+      "package": "org.vidogram.messenger"
+    },
+    "reply": {
+      "tg-role": "reply",
+      "package": "org.vidogram.messenger"
+    },
+    "delete": {
+      "tg-role": "delete",
+      "package": "org.vidogram.messenger"
+    },
+    "quote": {
+      "tg-role": "quote",
+      "package": "org.vidogram.messenger"
+    },
+    "input_placeholder": "Message",
+    "scan_chat_list": false
+  },
+  "adb_activities": {
+    "org.vidogram.messenger": "org.telegram.messenger.DefaultIcon",
+    "io.anonchat": ".MainActivity"
+  },
+  "adb_focus_seconds": 5.0,
+  "adb_launch_cooldown_seconds": 1.0,
+  "adb_error_backoff_seconds": 5.0,
+  "debounce_seconds": 3.0,
+  "accessibility_enabled": true,
+  "concurrent_monitoring": true,
+  "accessibility_port": 18765,
+  "llm_timeout_seconds": 300.0,
+  "typing_enabled": true,
+  "typing_delay_seconds": 5.0,
+  "typing_interval_seconds": 1.5
+}

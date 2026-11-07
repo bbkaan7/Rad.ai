@@ -1,0 +1,91 @@
+{
+  "model": "llama3.2:1b",
+  "ollama_url": "http://localhost:11434/api/chat",
+  "tesseract": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "profiles": {
+    "anonchat": {
+      "window_title": "BlueStacks App Player 3",
+      "process_name": "HD-Player.exe",
+      "regions": {
+        "incoming": [
+          291,
+          49,
+          482,
+          834
+        ],
+        "identity": [
+          290,
+          52,
+          487,
+          837
+        ]
+      },
+      "templates": {},
+      "size": [
+        830,
+        928
+      ],
+      "incoming_tolerance": 2,
+      "reference_dpi": 120,
+      "left_dock_width": 226,
+      "template_dpi": {
+        "next": 120,
+        "chat_anchor": 120,
+        "empty_textbox": 120
+      },
+      "send_method": "enter",
+      "read_mode": "region"
+    },
+    "telegram": {
+      "window_title": "",
+      "process_name": "Telegram.exe",
+      "regions": {
+        "chat": [
+          214,
+          63,
+          306,
+          632
+        ],
+        "identity": [
+          220,
+          25,
+          48,
+          17
+        ]
+      },
+      "templates": {
+        "empty_textbox": "templates/telegram/empty_textbox.png",
+        "chat_anchor": "templates/telegram/chat_anchor.png",
+        "send": "templates/telegram/send.png",
+        "copy_text": "templates/telegram/copy_text.png"
+      },
+      "size": [
+        528,
+        736
+      ],
+      "read_mode": "bubbles",
+      "timestamp_inside": true,
+      "incoming_color": [
+        51,
+        38,
+        22
+      ],
+      "outgoing_color": [
+        121,
+        82,
+        43
+      ],
+      "incoming_tolerance": 8,
+      "outgoing_tolerance": 8,
+      "text_source": "clipboard",
+      "reference_dpi": 96,
+      "template_dpi": {
+        "chat_anchor": 120,
+        "empty_textbox": 120,
+        "copy_text": 120
+      }
+    }
+  },
+  "debug_capture": true,
+  "last_platform": "anonchat"
+}

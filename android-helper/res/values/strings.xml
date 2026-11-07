@@ -1,0 +1,1 @@
+<resources><string name="accessibility_description">Rad.ai reads AnonChat and Telegram/Vidogram screen content for your local desktop assistant. Only these apps are collected. Data stays on the emulator and your computer through a local ADB connection. Enable only if you want Rad.ai to read these conversations. You can disable this service at any time.</string></resources>

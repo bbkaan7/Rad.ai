@@ -1,0 +1,5 @@
+aiohttp>=3.10,<4
+customtkinter>=5.2.2,<6
+Telethon>=1.36,<2
+pure-python-adb==0.3.0.dev0
+qrcode[pil]>=7.4,<9

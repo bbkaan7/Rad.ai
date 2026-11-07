@@ -1,0 +1,8 @@
+runtime/
+.venv/
+__pycache__/
+*.pyc
+*.session*
+.env
+work/android-tools/
+work/android-build/

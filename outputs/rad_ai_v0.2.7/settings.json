@@ -1,0 +1,78 @@
+{
+  "ollama_url": "http://localhost:11434/api/generate",
+  "model": "llama3.2:1b",
+  "context_messages": 5,
+  "adb_host": "127.0.0.1",
+  "adb_port": 5037,
+  "adb_serial": "127.0.0.1:5585",
+  "adb_device_host": "127.0.0.1",
+  "adb_device_port": 5585,
+  "adb_poll_seconds": 1.0,
+  "anon_greeting": true,
+  "selectors": {
+    "package": "io.anonchat",
+    "identity": {
+      "rad-role": "identity"
+    },
+    "incoming": {
+      "rad-role": "incoming"
+    },
+    "outgoing": {
+      "rad-role": "outgoing"
+    },
+    "input": {
+      "rad-role": "input"
+    },
+    "send": {
+      "rad-role": "send"
+    },
+    "next": {
+      "rad-role": "next"
+    },
+    "bio": {
+      "rad-role": "bio"
+    },
+    "search": {
+      "content-desc": "START SEARCHING"
+    },
+    "input_placeholder": "Write a message..."
+  },
+  "adb_switch_seconds": 0.35,
+  "telegram_selectors": {
+    "package": "org.telegram.messenger",
+    "chat_list": {
+      "tg-role": "chat_list"
+    },
+    "chat_rows": {
+      "tg-role": "chat_rows"
+    },
+    "identity": {
+      "tg-role": "identity"
+    },
+    "input": {
+      "tg-role": "input"
+    },
+    "send": {
+      "tg-role": "send"
+    },
+    "incoming": {
+      "tg-role": "incoming"
+    },
+    "outgoing": {
+      "tg-role": "outgoing"
+    },
+    "back": {
+      "tg-role": "back"
+    },
+    "reply": {
+      "tg-role": "reply"
+    },
+    "delete": {
+      "tg-role": "delete"
+    },
+    "quote": {
+      "tg-role": "quote"
+    },
+    "input_placeholder": "Message"
+  }
+}

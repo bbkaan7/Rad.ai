@@ -1,0 +1,41 @@
+{
+  "ollama_url": "http://localhost:11434/api/generate",
+  "model": "llama3.2:1b",
+  "context_messages": 5,
+  "adb_host": "127.0.0.1",
+  "adb_port": 5037,
+  "adb_serial": "127.0.0.1:5585",
+  "adb_device_host": "127.0.0.1",
+  "adb_device_port": 5585,
+  "adb_poll_seconds": 1.0,
+  "anon_greeting": true,
+  "selectors": {
+    "package": "io.anonchat",
+    "identity": {
+      "rad-role": "identity"
+    },
+    "incoming": {
+      "rad-role": "incoming"
+    },
+    "outgoing": {
+      "rad-role": "outgoing"
+    },
+    "input": {
+      "rad-role": "input"
+    },
+    "send": {
+      "rad-role": "send"
+    },
+    "next": {
+      "rad-role": "next"
+    },
+    "bio": {
+      "rad-role": "bio"
+    },
+    "search": {
+      "content-desc": "START SEARCHING"
+    },
+    "input_placeholder": "Write a message..."
+  },
+  "telegram_login_method": "qr"
+}
